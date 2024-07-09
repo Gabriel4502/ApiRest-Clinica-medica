@@ -14,9 +14,6 @@ import org.springframework.web.bind.annotation.*;
 public class ConsultaController {
 
     @Autowired
-    ConsultaRepository consultaRepository;
-
-    @Autowired
     private AgendaDeConsultas agenda;
 
     @PostMapping
